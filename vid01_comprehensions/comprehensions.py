@@ -29,9 +29,9 @@ set_nums = {num**num for num in numeros}
 
 
 # OBJETIVO 4: obter uma tuple contendo cada numero em 'numeros' somado de 1
-tuple_nums = tuple((num + 1 for num in numeros))
-# print(tuple_nums)
-# print(type(tuple_nums))
+nao_funciona_para_tuplas = (num + 1 for num in numeros) # isto nao eh uma comprehension, mas sim um GENERATOR
+print(nao_funciona_para_tuplas)
+print(type(nao_funciona_para_tuplas))
 
 
 
