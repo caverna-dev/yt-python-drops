@@ -8,6 +8,8 @@ packages = [{include = "yt_python_drops"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+memory-profiler = "^0.61.0"
+matplotlib = "^3.7.1"
 
 
 [build-system]
