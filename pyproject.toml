@@ -10,6 +10,7 @@ packages = [{include = "yt_python_drops"}]
 python = "^3.8"
 memory-profiler = "^0.61.0"
 matplotlib = "^3.7.1"
+python-dotenv = "^1.0.0"
 
 
 [build-system]
